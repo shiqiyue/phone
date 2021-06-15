@@ -1,5 +1,5 @@
 {
-  "name": "phone",
+  "name": "shiqiyuephone",
   "version": "2.4.21",
   "description": "With a given country and phone number, validate and format the phone number to E.164 standard",
   "main": "./dist/index.js",
