@@ -4,7 +4,7 @@ function getPhoneInfo(p) {
   if (!p.toString().startsWith('+')) {
     return phone('+' + p)
   }
-  return phone(p)
+  return phone(p, null, true)
 }
 
 function getPhoneCountry(p) {
@@ -31,4 +31,4 @@ function cleanPhone(p) {
   }
 }
 
-console.log(getPhoneCountry('+18687315320'))
+console.log(getPhoneCountry('+8615280425747'))
